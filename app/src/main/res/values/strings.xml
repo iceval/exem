@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpaceArrays</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="UP">UP</string>
+    <string name="DOWN">DOWN</string>
+    <string name="LEFT">LEFT</string>
+    <string name="RIGHT">RIGHT</string>
+
+</resources>

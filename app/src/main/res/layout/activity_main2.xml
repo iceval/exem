@@ -1,0 +1,53 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+<ru.samsung.itschool.spacearrays.MyDraw
+    android:id="@+id/myDraw1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+</ru.samsung.itschool.spacearrays.MyDraw>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/LEFT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="LEFT"
+            android:onClick="LEFT"/>
+        <Button
+            android:id="@+id/UP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="UP"
+            android:onClick="UP"/>
+        <Button
+            android:id="@+id/DOWN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DOWN"
+            android:onClick="DOWN"/>
+        <Button
+            android:id="@+id/RIGHT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RIGHT"
+            android:onClick="RIGHT"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
